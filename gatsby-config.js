@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ACME Corporation`,
     description: `Companhia Americana "Faz Tudo"`,
-    author: `@AlvesWesley`,
+    author: `@AlvesWesley`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,8 +10,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -21,14 +21,19 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#00c3ff`,
+        theme_color: `#00c3ff`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
+        icon: `src/images/gatsby-icon.png`
+      }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ['Nunito:wght@200;400;900'],
+        display: 'swap'
+      }
+    }
+  ]
 }

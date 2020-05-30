@@ -22,6 +22,10 @@ export default createGlobalStyle`
     vertical-align: baseline;
     color: #6d6d6d;
   }
+  
+  html {
+    font-family: Nunito, sans-serif;
+  }
 
   a {
     text-decoration: none;
