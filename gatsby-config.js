@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ACME Corporation`,
     description: `Companhia Americana "Faz Tudo"`,
+    presentation: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod lacus sit amet massa rhoncus, vitae luctus urna lobortis. Donec feugiat erat et risus ultricies, vel mollis tellus lacinia. Donec egestas viverra dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque pretium nisl elit, sit amet porta orci malesuada nec.`,
     author: `@AlvesWesley`
   },
   plugins: [
