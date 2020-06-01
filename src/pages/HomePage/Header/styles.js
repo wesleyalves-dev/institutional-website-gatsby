@@ -6,8 +6,6 @@ export const Wrapper = styled.header`
   margin: 0 auto;
 
   h1 {
-    font-size: 2rem;
-    font-weight: 900;
     margin: 20px 0;
   }
 

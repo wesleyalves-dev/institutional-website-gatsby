@@ -5,7 +5,7 @@ import Layout from '../../components/Layout'
 
 import Header from './Header'
 import Services from './Services'
-import ContactButton from './ContactButton'
+import ContactSection from '../../components/ContactSection'
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <SEO title="Home" />
       <Header />
       <Services />
-      <ContactButton />
+      <ContactSection />
     </Layout>
   )
 }

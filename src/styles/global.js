@@ -22,6 +22,36 @@ export default createGlobalStyle`
     vertical-align: baseline;
     color: #6d6d6d;
   }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-weight: 900;
+  }
   
   html {
     font-family: Nunito, sans-serif;
