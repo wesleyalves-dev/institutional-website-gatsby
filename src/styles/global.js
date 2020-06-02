@@ -60,4 +60,22 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  ::-webkit-scrollbar {
+    width: 15px;
+    background: #c6c6c6;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 15px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 15px;
+
+    :hover {
+      background: #404040
+    }
+  }
 `
