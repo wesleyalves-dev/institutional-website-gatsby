@@ -1,20 +1,41 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 import { Wrapper, ActiveStyle } from './styles'
 
 export default function Links() {
   return (
     <Wrapper>
-      <Link to="/" activeStyle={ActiveStyle}>
+      <AniLink
+        cover
+        bg="#ffffff"
+        direction="left"
+        duration={0.5}
+        to="/"
+        activeStyle={ActiveStyle}
+      >
         Home
-      </Link>
-      <Link to="/sobre" activeStyle={ActiveStyle}>
+      </AniLink>
+      <AniLink
+        cover
+        bg="#ffffff"
+        direction="left"
+        duration={0.5}
+        to="/sobre"
+        activeStyle={ActiveStyle}
+      >
         Sobre
-      </Link>
-      <Link to="/contato" activeStyle={ActiveStyle}>
+      </AniLink>
+      <AniLink
+        cover
+        bg="#ffffff"
+        direction="left"
+        duration={0.5}
+        to="/contato"
+        activeStyle={ActiveStyle}
+      >
         Contato
-      </Link>
+      </AniLink>
     </Wrapper>
   )
 }

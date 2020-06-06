@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 import { Wrapper, ActiveStyle } from './styles'
 
@@ -8,19 +8,19 @@ export default function Links() {
     <Wrapper>
       <ul>
         <li>
-          <Link to="/" activeStyle={ActiveStyle}>
+          <AniLink fade duration={0.5} to="/" activeStyle={ActiveStyle}>
             Home
-          </Link>
+          </AniLink>
         </li>
         <li>
-          <Link to="/sobre" activeStyle={ActiveStyle}>
+          <AniLink fade duration={0.5} to="/sobre" activeStyle={ActiveStyle}>
             Sobre
-          </Link>
+          </AniLink>
         </li>
         <li>
-          <Link to="/contato" activeStyle={ActiveStyle}>
+          <AniLink fade duration={0.5} to="/contato" activeStyle={ActiveStyle}>
             Contato
-          </Link>
+          </AniLink>
         </li>
       </ul>
     </Wrapper>

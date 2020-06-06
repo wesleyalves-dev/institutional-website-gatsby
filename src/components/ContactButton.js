@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
-export default styled(Link)`
+export default styled(AniLink)`
   color: #ffffff;
   box-shadow: 8px 8px 20px rgba(0, 196, 255, 0.9);
   padding: 1.4rem 2rem;

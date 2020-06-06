@@ -35,6 +35,7 @@ module.exports = {
         fonts: ['Nunito:wght@200;400;900'],
         display: 'swap'
       }
-    }
+    },
+    `gatsby-plugin-transition-link`
   ]
 }
