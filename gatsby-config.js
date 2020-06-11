@@ -3,7 +3,8 @@ module.exports = {
     title: `ACME Corporation`,
     description: `Companhia Americana "Faz Tudo"`,
     presentation: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod lacus sit amet massa rhoncus, vitae luctus urna lobortis. Donec feugiat erat et risus ultricies, vel mollis tellus lacinia. Donec egestas viverra dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque pretium nisl elit, sit amet porta orci malesuada nec.`,
-    author: `@AlvesWesley`
+    author: `@AlvesWesley`,
+    siteUrl: 'https://acmecorporationgatsby.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,16 +20,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `ACME Corporation`,
+        short_name: `ACME`,
         start_url: `/`,
-        background_color: `#00c3ff`,
-        theme_color: `#00c3ff`,
+        background_color: `#0073ff`,
+        theme_color: `#0073ff`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`
       }
     },
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -36,6 +36,9 @@ module.exports = {
         display: 'swap'
       }
     },
-    `gatsby-plugin-transition-link`
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-styled-components`
   ]
 }
