@@ -1,16 +1,14 @@
 import React from 'react'
 
-import SEO from '../../components/seo'
-import Layout from '../../components/Layout'
+import Layout from '../Layout'
 
 import Header from './Header'
 import Services from './Services'
-import ContactSection from '../../components/ContactSection'
+import ContactSection from '../ContactSection'
 
 export default function HomePage() {
   return (
     <Layout>
-      <SEO title="Home" />
       <Header />
       <Services />
       <ContactSection />
