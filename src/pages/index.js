@@ -2,11 +2,13 @@ import React from 'react'
 
 import SEO from '../components/seo'
 
-export default function HomePage() {
+import HomePage from '../components/HomePage'
+
+export default function HomePageIndex() {
   return (
     <>
       <SEO title="Home" />
-      <h1>Home</h1>
+      <HomePage />
     </>
   )
 }
