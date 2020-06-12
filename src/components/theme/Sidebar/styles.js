@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.aside`
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   right: 0;
   background: #ffffff;
