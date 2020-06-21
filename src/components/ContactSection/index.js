@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Wrapper } from './styles'
 
-import ContactButton from '../ContactButton'
+import ContactButton from '../../styles/ContactButton'
 
 export default function ContactSection() {
   return (
@@ -14,7 +14,7 @@ export default function ContactSection() {
         duration={0.5}
         to="/contato"
       >
-        ENTRE EM CONTATO
+        Entre em contato
       </ContactButton>
     </Wrapper>
   )

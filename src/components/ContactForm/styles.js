@@ -1,7 +1,13 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  margin: 30px 0;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+  }
 
   form {
     margin-bottom: 60px;
@@ -26,6 +32,10 @@ export const Wrapper = styled.div`
       }
     }
 
+    label {
+      font-size: 1.2rem;
+    }
+
     button {
       background: linear-gradient(
         10deg,
@@ -38,6 +48,7 @@ export const Wrapper = styled.div`
       outline: none;
       border-radius: 7px;
       float: right;
+      text-transform: uppercase;
       cursor: pointer;
 
       :hover {
@@ -49,8 +60,4 @@ export const Wrapper = styled.div`
       }
     }
   }
-`
-
-export const Label = styled.label`
-  font-size: 1.2rem;
 `

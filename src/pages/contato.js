@@ -1,14 +1,14 @@
 import React from 'react'
 
+import Layout from '../components/Layout'
 import SEO from '../components/seo'
-
-import Contato from '../components/Contato'
+import ContactForm from '../components/ContactForm'
 
 export default function ContatoPage() {
   return (
-    <>
+    <Layout>
       <SEO title="Contato" />
-      <Contato />
-    </>
+      <ContactForm />
+    </Layout>
   )
 }

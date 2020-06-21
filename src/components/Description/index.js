@@ -26,7 +26,7 @@ export default function Description() {
       <Container>
         <TextContainer>
           <h1>{content.title}</h1>
-          <p>{content.firstDescription}</p>
+          <p>{content.text}</p>
         </TextContainer>
         <ImageContainer>
           <Img

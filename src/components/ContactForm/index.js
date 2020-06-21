@@ -1,12 +1,13 @@
 import React from 'react'
 
-import { Wrapper, Label } from './styles'
+import { Wrapper } from './styles'
 
-export default function Form() {
+export default function ContactForm() {
   return (
     <Wrapper>
+      <h1>Contato</h1>
       <form>
-        <Label htmlFor="name">
+        <label htmlFor="name">
           Nome:
           <input
             id="name"
@@ -15,8 +16,8 @@ export default function Form() {
             maxLength={50}
             required
           />
-        </Label>
-        <Label htmlFor="email">
+        </label>
+        <label htmlFor="email">
           E-mail:
           <input
             id="email"
@@ -26,8 +27,8 @@ export default function Form() {
             maxLength={50}
             required
           />
-        </Label>
-        <Label htmlFor="subject">
+        </label>
+        <label htmlFor="subject">
           Assunto:
           <input
             id="subject"
@@ -36,8 +37,8 @@ export default function Form() {
             maxLength={80}
             required
           />
-        </Label>
-        <Label htmlFor="message">
+        </label>
+        <label htmlFor="message">
           Mensagem:
           <textarea
             id="message"
@@ -46,7 +47,7 @@ export default function Form() {
             maxLength={200}
             required
           />
-        </Label>
+        </label>
 
         <button type="submit">Enviar</button>
       </form>

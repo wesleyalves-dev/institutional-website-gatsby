@@ -6,7 +6,7 @@ import { Wrapper, TextContainer, ImageContainer } from './styles'
 
 import content from './content'
 
-export default function Description() {
+export default function AboutUs() {
   const { architectureImage } = useStaticQuery(
     graphql`
       query {
@@ -31,7 +31,7 @@ export default function Description() {
       </ImageContainer>
       <TextContainer>
         <h1>{content.title}</h1>
-        <p>{content.firstDescription}</p>
+        <p>{content.text}</p>
       </TextContainer>
     </Wrapper>
   )
