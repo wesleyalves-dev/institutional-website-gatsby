@@ -1,6 +1,22 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+  :root {
+    --background-color: #ffffff;
+
+    --primary-color: #0073ff;
+    --secondary-color: #00c8ff;
+    --tertiary-color: #f9f9f9;
+
+    --text-default-color: #6d6d6d;
+    --text-footer-color: #ffffff;
+
+    --logo-header-color: #000000;
+    --logo-footer-color: #ffffff;
+    
+    --grey: #c0c0c0;
+  }
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -20,7 +36,7 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    color: #6d6d6d;
+    color: var(--text-default-color);
   }
 
   h1 {

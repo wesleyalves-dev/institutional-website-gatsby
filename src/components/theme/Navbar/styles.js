@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import media from 'styled-media-query'
 
 export const Nav = styled.nav`
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid var(--grey);
   background: #ffffff;
   z-index: 1;
   position: fixed;

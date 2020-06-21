@@ -6,7 +6,7 @@ export const Wrapper = styled.aside`
   position: fixed;
   z-index: 1;
   right: 0;
-  background: #ffffff;
+  background: var(--background-color);
   display: ${props => (props.show ? 'block' : 'none')};
 `
 

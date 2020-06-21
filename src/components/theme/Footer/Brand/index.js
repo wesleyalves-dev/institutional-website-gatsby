@@ -8,8 +8,8 @@ import { Wrapper } from './styles'
 export default function Brand() {
   return (
     <Wrapper>
-      <Link to="/">
-        <Logo color="#ffffff" />
+      <Link to="/" title="Home">
+        <Logo color="var(--logo-footer-color)" />
         <span>ACME Corporation</span>
       </Link>
     </Wrapper>

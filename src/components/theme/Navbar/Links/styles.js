@@ -10,10 +10,6 @@ export const Wrapper = styled.div`
     margin-right: 1em;
     font-size: 1.2rem;
     font-weight: 400;
-
-    :hover {
-      color: #000000;
-    }
   }
 `
 

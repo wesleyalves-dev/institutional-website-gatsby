@@ -15,11 +15,6 @@ export const Wrapper = styled.div`
 
   span {
     font-size: 1.1rem;
-    color: #ffffff;
     margin-left: 0.3rem;
-
-    :hover {
-      color: #cccccc;
-    }
   }
 `

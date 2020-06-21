@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     input,
     textarea {
       width: 100%;
-      border: 1px solid #c0c0c0;
+      border: 1px solid var(--grey);
       border-radius: 5px;
       font-size: 1.01rem;
       padding: 7px 10px;
@@ -24,11 +24,11 @@ export const Wrapper = styled.div`
       margin-bottom: 10px;
 
       ::placeholder {
-        color: #c0c0c0;
+        color: var(--grey);
       }
 
       :focus {
-        border: 5px solid rgba(0, 198, 255, 0.3);
+        box-shadow: 0 0 5px rgba(0, 198, 255, 0.5) inset;
       }
     }
 
@@ -39,8 +39,8 @@ export const Wrapper = styled.div`
     button {
       background: linear-gradient(
         10deg,
-        rgb(0, 114, 255) 0%,
-        rgb(0, 198, 255) 100%
+        var(--primary-color) 0%,
+        var(--secondary-color) 100%
       );
       padding: 10px 20px;
       color: #ffffff;
@@ -54,8 +54,8 @@ export const Wrapper = styled.div`
       :hover {
         background: linear-gradient(
           10deg,
-          rgb(0, 198, 255) 0%,
-          rgb(0, 114, 255) 100%
+          var(--secondary-color) 0%,
+          var(--primary-color) 100%
         );
       }
     }

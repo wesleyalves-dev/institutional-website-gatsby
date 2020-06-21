@@ -3,10 +3,6 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-
-  span {
-    color: #ffffff;
-  }
 `
 
 export const List = styled.ul`
@@ -19,14 +15,6 @@ export const List = styled.ul`
 
     :first-child {
       margin-left: 0em;
-    }
-
-    a {
-      color: #cccccc;
-
-      :hover {
-        color: #000000;
-      }
     }
   }
 `

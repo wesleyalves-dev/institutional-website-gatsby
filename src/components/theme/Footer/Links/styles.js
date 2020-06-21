@@ -7,13 +7,5 @@ export const List = styled.ul`
     display: block;
     text-align: center;
     margin: 20px 0;
-
-    a {
-      color: #ffffff;
-
-      :hover {
-        color: #cccccc;
-      }
-    }
   }
 `

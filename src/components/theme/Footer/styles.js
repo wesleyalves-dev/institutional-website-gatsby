@@ -5,10 +5,15 @@ export const Wrapper = styled.footer`
   padding: 100px 0 0 0;
   background: linear-gradient(
     15deg,
-    rgb(0, 114, 255) 0%,
-    rgb(0, 198, 255) 100%
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
   );
   clip-path: polygon(0% 15%, 100% 0px, 100% 100%, 0 100%);
+
+  a,
+  span {
+    color: var(--text-footer-color);
+  }
 `
 
 export const Grid = styled.div`
