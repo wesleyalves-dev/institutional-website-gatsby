@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Bars } from 'styled-icons/fa-solid'
 
-import { Nav, Container, OpenSidebarButton } from './styles'
+import { Nav, Container } from './styles'
 import Brand from './Brand'
 import Links from './Links'
+import Sandwich from './Sandwich'
 
 export default function Navbar({ handleSidebar }) {
   return (
@@ -12,9 +12,7 @@ export default function Navbar({ handleSidebar }) {
       <Container>
         <Brand />
         <Links />
-        <OpenSidebarButton type="button" onClick={() => handleSidebar(true)}>
-          <Bars />
-        </OpenSidebarButton>
+        <Sandwich handleSidebar={handleSidebar} />
       </Container>
     </Nav>
   )
