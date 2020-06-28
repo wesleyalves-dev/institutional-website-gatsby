@@ -11,7 +11,7 @@ export default function Sidebar({ show, handleSidebar }) {
   return (
     <Wrapper show={show}>
       <CloseSidebarButton onClick={() => handleSidebar(false)}>
-        <Close />
+        <Close color="var(--text-primary-color)" />
       </CloseSidebarButton>
       <Container>
         <Links />

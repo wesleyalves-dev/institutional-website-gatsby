@@ -6,7 +6,7 @@ export const Wrapper = styled.aside`
   position: fixed;
   z-index: 1;
   right: 0;
-  background: var(--background-color);
+  background: var(--background-primary);
   display: ${props => (props.show ? 'block' : 'none')};
 `
 
@@ -19,13 +19,13 @@ export const Container = styled.div`
 `
 
 export const CloseSidebarButton = styled.button`
-  margin: 35px;
+  margin: 30px;
   padding: 0;
   border: none;
   outline: none;
   cursor: pointer;
   background: none;
-  width: 1.5rem;
+  width: 2.2rem;
   position: absolute;
   right: 0;
 `

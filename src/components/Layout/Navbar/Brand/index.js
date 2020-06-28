@@ -9,7 +9,7 @@ export default function Brand() {
   return (
     <Wrapper>
       <Link to="/" title="Home">
-        <Logo color="var(--logo-header-color)" />
+        <Logo color="var(--text-primary-color)" />
       </Link>
     </Wrapper>
   )

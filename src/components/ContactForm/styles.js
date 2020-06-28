@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     input,
     textarea {
       width: 100%;
-      border: 1px solid var(--grey);
+      border: 1px solid var(--input-placeholder-color);
       border-radius: 5px;
       font-size: 1.01rem;
       padding: 7px 10px;
@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
       margin-bottom: 10px;
 
       ::placeholder {
-        color: var(--grey);
+        color: var(--input-border-color);
       }
 
       :focus {
@@ -46,7 +46,7 @@ export const Wrapper = styled.div`
       color: #ffffff;
       border: none;
       outline: none;
-      border-radius: 7px;
+      border-radius: 5px;
       float: right;
       text-transform: uppercase;
       cursor: pointer;

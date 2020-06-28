@@ -1,20 +1,40 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  :root {
-    --background-color: #ffffff;
+  body.light {
+    --background-primary: #ffffff;
+    --background-secondary: #f9f9f9;
+    --background-tertiary: #c0c0c0;
+
+    --text-primary-color: #252525;
+    --text-secondary-color: #000000;
+
+    --text-footer-primary-color: #ffffff;
 
     --primary-color: #0073ff;
     --secondary-color: #00c8ff;
     --tertiary-color: #f9f9f9;
 
-    --text-default-color: #6d6d6d;
-    --text-footer-color: #ffffff;
+    --input-placeholder-color: #a6a6a6;
+    --input-border-color: #a6a6a6;
+  }
 
-    --logo-header-color: #000000;
-    --logo-footer-color: #ffffff;
-    
-    --grey: #c0c0c0;
+  body.dark {
+    --background-primary: #101010;
+    --background-secondary: #3b3b3b;
+    --background-tertiary: #a2a2a2;
+
+    --text-primary-color: #dddddd;
+    --text-secondary-color: #ffffff;
+
+    --text-footer-primary-color: #dddddd;
+
+    --primary-color: #565554;
+    --secondary-color: #7c7a77;
+    --tertiary-color: #f9f9f9;
+
+    --input-placeholder-color: #a6a6a6;
+    --input-border-color: #a6a6a6;
   }
 
   html, body, div, span, applet, object, iframe,
@@ -36,7 +56,7 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    color: var(--text-default-color);
+    color: var(--text-primary-color);
   }
 
   h1 {
@@ -71,6 +91,10 @@ export default createGlobalStyle`
   
   html {
     font-family: Nunito, sans-serif;
+  }
+
+  body {
+    background: var(--background-primary);
   }
 
   a {

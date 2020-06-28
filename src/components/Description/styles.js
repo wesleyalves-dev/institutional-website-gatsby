@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.section`
-  background: var(--tertiary-color);
+  background: var(--background-secondary);
   clip-path: polygon(0% 15%, 100% 0px, 100% 85%, 0px 100%);
   padding: 100px 0;
 `

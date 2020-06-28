@@ -12,7 +12,7 @@ export const Wrapper = styled.footer`
 
   a,
   span {
-    color: var(--text-footer-color);
+    color: var(--text-footer-primary-color);
   }
 `
 

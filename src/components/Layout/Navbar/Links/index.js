@@ -8,7 +8,7 @@ export default function Links() {
     <Wrapper>
       <AniLink
         cover
-        bg="#ffffff"
+        bg="var(--background-primary)"
         direction="left"
         duration={0.5}
         to="/"
@@ -18,7 +18,7 @@ export default function Links() {
       </AniLink>
       <AniLink
         cover
-        bg="#ffffff"
+        bg="var(--background-primary)"
         direction="left"
         duration={0.5}
         to="/sobre"
@@ -28,7 +28,7 @@ export default function Links() {
       </AniLink>
       <AniLink
         cover
-        bg="#ffffff"
+        bg="var(--background-primary)"
         direction="left"
         duration={0.5}
         to="/contato"

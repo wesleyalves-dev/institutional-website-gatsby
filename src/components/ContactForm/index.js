@@ -8,7 +8,7 @@ export default function ContactForm() {
       <h1>Contato</h1>
       <form>
         <label htmlFor="name">
-          Nome:
+          Nome
           <input
             id="name"
             name="name"
@@ -18,7 +18,7 @@ export default function ContactForm() {
           />
         </label>
         <label htmlFor="email">
-          E-mail:
+          E-mail
           <input
             id="email"
             name="email"
@@ -29,7 +29,7 @@ export default function ContactForm() {
           />
         </label>
         <label htmlFor="subject">
-          Assunto:
+          Assunto
           <input
             id="subject"
             name="subject"
@@ -39,7 +39,7 @@ export default function ContactForm() {
           />
         </label>
         <label htmlFor="message">
-          Mensagem:
+          Mensagem
           <textarea
             id="message"
             name="message"

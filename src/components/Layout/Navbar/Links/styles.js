@@ -14,5 +14,5 @@ export const Wrapper = styled.div`
 `
 
 export const ActiveStyle = {
-  color: '#000000'
+  color: 'var(--text-secondary-color)'
 }

@@ -7,7 +7,7 @@ import { OpenSidebarButton } from './styles'
 export default function Navbar({ handleSidebar }) {
   return (
     <OpenSidebarButton type="button" onClick={() => handleSidebar(true)}>
-      <Bars />
+      <Bars color="var(--text-primary-color)" />
     </OpenSidebarButton>
   )
 }
