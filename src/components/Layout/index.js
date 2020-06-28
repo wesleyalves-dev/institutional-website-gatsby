@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 import GlobalStyles from '../../styles/global'
-import Navbar from '../theme/Navbar'
-import Sidebar from '../theme/Sidebar'
-import Footer from '../theme/Footer'
+import Navbar from './Navbar'
+import Sidebar from './Sidebar'
+import Footer from './Footer'
 
 import { Wrapper } from './styles'
 

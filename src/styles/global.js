@@ -1,6 +1,52 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+  body.light {
+    --background-primary: #ffffff;
+    --background-secondary: #f9f9f9;
+    --background-tertiary: #c0c0c0;
+
+    --text-primary-color: #252525;
+    --text-secondary-color: #000000;
+
+    --text-footer-primary-color: #ffffff;
+
+    --primary-color: #0073ff;
+    --secondary-color: #00c8ff;
+    --tertiary-color: #f9f9f9;
+
+    --input-placeholder-color: #a6a6a6;
+    --input-border-color: #a6a6a6;
+
+    --contact-button-color: #ffffff;
+    --contact-button-shadow: rgba(0, 196, 255, 0.9);
+    --contact-button-shadow-hover: rgba(0, 196, 255, 0.36);
+    --contact-button-background: #00c8ff;
+  }
+
+  body.dark {
+    --background-primary: #101010;
+    --background-secondary: #3b3b3b;
+    --background-tertiary: #a2a2a2;
+
+    --text-primary-color: #dddddd;
+    --text-secondary-color: #ffffff;
+
+    --text-footer-primary-color: #dddddd;
+
+    --primary-color: #565554;
+    --secondary-color: #7c7a77;
+    --tertiary-color: #f9f9f9;
+
+    --input-placeholder-color: #a6a6a6;
+    --input-border-color: #a6a6a6;
+
+    --contact-button-color: #ffffff;
+    --contact-button-shadow: rgba(220, 220, 220, 0.9);
+    --contact-button-shadow-hover: rgba(220, 220, 220, 0.36);
+    --contact-button-background: #757575;
+  }
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -20,7 +66,7 @@ export default createGlobalStyle`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    color: #6d6d6d;
+    color: var(--text-primary-color);
   }
 
   h1 {
@@ -55,6 +101,10 @@ export default createGlobalStyle`
   
   html {
     font-family: Nunito, sans-serif;
+  }
+
+  body {
+    background: var(--background-primary);
   }
 
   a {
