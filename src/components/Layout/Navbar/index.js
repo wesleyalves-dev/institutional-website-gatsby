@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import { Nav, Container } from './styles'
 import Brand from './Brand'
+import Toggle from './Toggle'
 import Links from './Links'
 import Sandwich from './Sandwich'
 
@@ -11,6 +12,7 @@ export default function Navbar({ handleSidebar }) {
     <Nav>
       <Container>
         <Brand />
+        <Toggle />
         <Links />
         <Sandwich handleSidebar={handleSidebar} />
       </Container>
