@@ -17,6 +17,11 @@ export default createGlobalStyle`
 
     --input-placeholder-color: #a6a6a6;
     --input-border-color: #a6a6a6;
+
+    --contact-button-color: #ffffff;
+    --contact-button-shadow: rgba(0, 196, 255, 0.9);
+    --contact-button-shadow-hover: rgba(0, 196, 255, 0.36);
+    --contact-button-background: #00c8ff;
   }
 
   body.dark {
@@ -35,6 +40,11 @@ export default createGlobalStyle`
 
     --input-placeholder-color: #a6a6a6;
     --input-border-color: #a6a6a6;
+
+    --contact-button-color: #ffffff;
+    --contact-button-shadow: rgba(220, 220, 220, 0.9);
+    --contact-button-shadow-hover: rgba(220, 220, 220, 0.36);
+    --contact-button-background: #757575;
   }
 
   html, body, div, span, applet, object, iframe,
