@@ -4,7 +4,24 @@ module.exports = {
     description: `Companhia Americana "Faz Tudo"`,
     presentation: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod lacus sit amet massa rhoncus, vitae luctus urna lobortis. Donec feugiat erat et risus ultricies, vel mollis tellus lacinia. Donec egestas viverra dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque pretium nisl elit, sit amet porta orci malesuada nec.`,
     author: `@AlvesWesley`,
-    siteUrl: 'https://acmecorporationgatsby.com'
+    siteUrl: 'https://condescending-mccarthy-1d6dd7.netlify.app/',
+    menu: [
+      {
+        name: 'Home',
+        path: '/',
+        title: 'Home page'
+      },
+      {
+        name: 'Sobre',
+        path: '/sobre',
+        title: 'Sobre nós'
+      },
+      {
+        name: 'Contato',
+        path: '/contato',
+        title: 'Contato'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

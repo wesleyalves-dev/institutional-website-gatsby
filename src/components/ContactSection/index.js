@@ -9,7 +9,7 @@ export default function ContactSection() {
     <Wrapper>
       <ContactButton
         cover
-        bg="#ffffff"
+        bg="var(--background-primary)"
         direction="left"
         duration={0.5}
         to="/contato"
