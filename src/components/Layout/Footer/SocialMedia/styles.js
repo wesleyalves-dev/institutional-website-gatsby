@@ -2,16 +2,19 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 `
 
-export const List = styled.ul`
+export const List = styled.div`
   margin-top: 0.6em;
 
-  li {
-    width: 40px;
+  a {
     display: inline-block;
-    margin-left: 0.6em;
+    margin-left: 1.2em;
+    width: 45px;
 
     :first-child {
       margin-left: 0em;

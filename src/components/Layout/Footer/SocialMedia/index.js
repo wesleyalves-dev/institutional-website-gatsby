@@ -8,27 +8,24 @@ import Icons from './Icons'
 export default function SocialMedia() {
   return (
     <Wrapper>
-      <div>
-        <span>Siga-nos:</span>
-        <List>
-          {links.map(({ label, name, url }) => {
-            const Icon = Icons[label]
+      <span>Siga-nos:</span>
+      <List>
+        {links.map(({ label, name, url }) => {
+          const Icon = Icons[label]
 
-            return (
-              <li key={label}>
-                <a
-                  href={url}
-                  title={name}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Icon />
-                </a>
-              </li>
-            )
-          })}
-        </List>
-      </div>
+          return (
+            <a
+              key={label}
+              href={url}
+              title={name}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
+          )
+        })}
+      </List>
     </Wrapper>
   )
 }
