@@ -9,7 +9,7 @@ export const OpenSidebarButton = styled.button`
   background: none;
   width: 1.5rem;
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan('880px')`
     display: none;
   `}
 `

@@ -5,7 +5,7 @@ export default styled(AniLink)`
   color: var(--contact-button-color);
   box-shadow: 8px 8px 20px var(--contact-button-shadow);
   padding: 1.4rem 2rem;
-  background: var(--contact-button-background);
+  background: var(--primary-color);
   border-radius: 0.6rem;
   transition: all 0.5s ease 0s;
   font-size: 1.1rem;

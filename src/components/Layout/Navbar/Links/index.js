@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
-import { Wrapper, ActiveStyle } from './styles'
+import { Wrapper, Container, Item, ActiveStyle } from './styles'
 
 export default function Links() {
   const {
@@ -25,19 +25,22 @@ export default function Links() {
 
   return (
     <Wrapper>
-      {menu.map(link => (
-        <AniLink
-          key={link.path}
-          cover
-          bg="var(--background-primary)"
-          direction="left"
-          duration={0.5}
-          to={link.path}
-          activeStyle={ActiveStyle}
-        >
-          {link.name}
-        </AniLink>
-      ))}
+      <Container>
+        {menu.map(link => (
+          <Item key={link.path}>
+            <AniLink
+              cover
+              bg="var(--background-primary)"
+              direction="left"
+              duration={0.5}
+              to={link.path}
+              activeStyle={ActiveStyle}
+            >
+              {link.name}
+            </AniLink>
+          </Item>
+        ))}
+      </Container>
     </Wrapper>
   )
 }

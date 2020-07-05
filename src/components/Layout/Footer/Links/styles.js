@@ -1,11 +1,22 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div``
+export const Wrapper = styled.div`
+  margin: 50px 0;
 
-export const List = styled.ul`
-  li {
-    display: block;
+  a {
     text-align: center;
-    margin: 20px 0;
+    display: block;
+    line-height: 50px;
+
+    :hover {
+      background: var(--background-secondary);
+      color: var(--text-footer-secondary-color);
+      border-radius: 5px;
+    }
   }
+`
+
+export const Item = styled.div`
+  width: 150px;
+  margin: 0 auto;
 `

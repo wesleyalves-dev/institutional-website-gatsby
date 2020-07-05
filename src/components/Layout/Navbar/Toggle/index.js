@@ -27,7 +27,7 @@ export default function Toggle() {
         title={`Mudar para tema ${isDarkTheme ? 'light' : 'dark'}`}
       >
         {isDarkTheme ? (
-          <OffLight color="yellow" />
+          <OffLight color="#ffff00" />
         ) : (
           <OnLight color="var(--text-primary-color)" />
         )}
