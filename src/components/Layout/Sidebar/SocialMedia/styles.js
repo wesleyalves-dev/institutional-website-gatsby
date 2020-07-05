@@ -9,9 +9,9 @@ export const List = styled.ul`
   margin-top: 0.6em;
 
   li {
-    width: 40px;
+    width: 50px;
     display: inline-block;
-    margin-left: 0.6em;
+    margin-left: 0.8em;
 
     :first-child {
       margin-left: 0em;

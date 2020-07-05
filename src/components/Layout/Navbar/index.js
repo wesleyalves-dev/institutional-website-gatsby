@@ -12,8 +12,8 @@ export default function Navbar({ handleSidebar }) {
     <Nav>
       <Container>
         <Brand />
-        <Toggle />
         <Links />
+        <Toggle />
         <Sandwich handleSidebar={handleSidebar} />
       </Container>
     </Nav>
